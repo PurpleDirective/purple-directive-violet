@@ -1,18 +1,16 @@
-# ============================================================
-# PurpleDirective .gitignore
-# Only the GitHub/ portfolio directory is tracked.
-# Everything else is private working files.
-# ============================================================
+# OS
+.DS_Store
 
-# Ignore everything by default
-*
+# Python
+__pycache__/
+*.pyc
+*.pyo
 
-# Except the GitHub portfolio directory and this gitignore
-!.gitignore
-!GitHub/
-!GitHub/**
+# Editors
+*.swp
+*.swo
+*~
+.obsidian/
 
-# Still exclude these even inside GitHub/
-GitHub/**/.DS_Store
-GitHub/**/__pycache__/
-GitHub/**/*.pyc
+# Dependencies
+node_modules/
