@@ -1,0 +1,6 @@
+# Purple Context Compressor dependencies
+# Install: pip install -r requirements.txt
+
+llmlingua>=0.2.0
+torch>=2.0.0
+transformers>=4.36.0

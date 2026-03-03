@@ -1,0 +1,31 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.tmp": true,
+    "**/node_modules": true,
+    "**/__pycache__": true
+  },
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "editor.wordWrap": "on",
+  "editor.rulers": [100],
+  "markdown.preview.fontSize": 14,
+  "search.exclude": {
+    "**/Study/**": true,
+    "**/data/subjects/**": true,
+    "**/.tmp/**": true,
+    "**/Mail/**": true,
+    "**/OneDrive_*/**": true,
+    "**/*Blue Passport*/**": true,
+    "**/*Red Passport*/**": true,
+    "**/_archive/**": true,
+    "**/Bank Statements/**": true
+  },
+  "files.watcherExclude": {
+    "**/Study/**": true,
+    "**/data/subjects/**": true,
+    "**/_archive/**": true,
+    "**/OneDrive_*/**": true
+  }
+}

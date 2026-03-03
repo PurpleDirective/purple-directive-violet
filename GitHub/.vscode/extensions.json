@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "continue.continue",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ]
+}
