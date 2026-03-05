@@ -31,7 +31,6 @@ Does the output meet organizational quality standards?
 Were domain-specific guardrails respected?
 - Organization: No unreviewed patient-facing content? No medical claims? Patient data protected?
 - Coordinator: Red flag scanner run? Protocol deviations bolded? Out-of-window visits rejected?
-- Agent C: Compliance requirements flagged? Conservative financial estimates?
 - General: No plaintext secrets? No security violations?
 
 ### 4. Fact Verification

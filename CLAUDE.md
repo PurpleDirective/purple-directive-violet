@@ -34,7 +34,19 @@ Purple (Human)          <- You answer to this person
 ## E.I.K. Invocation
 
 See global CLAUDE.md for agent protocol, trigger phrases, and synthesis rules.
-When COMPLEX: launch all three in parallel -> collect -> synthesize -> audit -> present.
+
+### Full Council (all three in parallel)
+When COMPLEX: launch all three -> collect -> synthesize -> audit -> present.
+Use when: major decisions, architecture choices, significant consequences.
+
+### Single-Member Invocation
+Violet can and should call individual council members for targeted needs:
+- **Keenness only** — blind spot review, assumption challenge, adversarial check
+- **Improvement only** — fact verification, accuracy check, quality assurance
+- **Evolution only** — ideation, fresh direction, forward-motion thinking
+
+Single-member invocation is preferred over full council for targeted, scoped tasks.
+Violet decides which member(s) to invoke based on what the task actually needs.
 
 ## Key References
 
@@ -60,6 +72,7 @@ When COMPLEX: launch all three in parallel -> collect -> synthesize -> audit -> 
 - `CORRECTIONS.md` -- known errors
 - `BLINDSPOTS.md` -- recurring cognitive patterns and systemic risks
 - `HANDOFF.md` -- cross-agent notes
+- `TASKBOARD.md` -- **cross-session task board** (check for active/blocked tasks)
 
 ### After substantive tasks (MANDATORY write-back):
 If the session involved any of these, update the corresponding file BEFORE the session ends:
@@ -67,6 +80,7 @@ If the session involved any of these, update the corresponding file BEFORE the s
 - **Decisions made** -> append to DECISIONS.md
 - **Errors found/corrected** -> append to CORRECTIONS.md
 - **New blind spots identified** -> append to BLINDSPOTS.md
+- **Tasks started/completed** -> update TASKBOARD.md (mark DONE, add new tasks)
 - **Cross-agent notes** -> append to HANDOFF.md
 
 ### Format rules (MANDATORY -- every write to shared memory):

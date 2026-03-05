@@ -148,7 +148,7 @@ Agent personalities are grounded in research on real thinkers -- specific inspir
 
 ## VIII. Operational Staff Integration
 
-Domain agents (Organization, Coordinator, Agent C, and future agents) inherit the Core Foundation as their cognitive baseline. They also follow the DOE Framework.
+Domain agents (Organization, Coordinator, and future agents) inherit the Core Foundation as their cognitive baseline. They also follow the DOE Framework.
 
 ### DOE Framework (Directive, Orchestration, Execution)
 - **Layer 1 -- Directive:** Markdown SOPs in `directives/` define what to do. Human-authored, version-controlled.
