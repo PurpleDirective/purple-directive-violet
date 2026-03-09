@@ -1,16 +1,101 @@
-# OS
-.DS_Store
+# =============================================================
+# Purple Directive .gitignore
+# Strategy: DENY ALL, then whitelist safe architecture files.
+# Prevents accidental exposure of clinical, business, or
+# personal data to the public GitHub repo.
+# =============================================================
 
-# Python
+# ---- DENY EVERYTHING BY DEFAULT ----
+*
+
+# ---- WHITELIST: System architecture only ----
+
+# Root files
+!.gitignore
+!LICENSE
+!README.md
+!CHARTER.md
+!CLAUDE.md
+!RECOVERY.md
+
+# Claude agent definitions
+!.claude/
+!.claude/agents/
+!.claude/agents/*.md
+
+# GitHub workflows
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+
+# VSCode settings
+!.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Admin
+!Admin/
+!Admin/CLAUDE.md
+!Admin/Identity/
+!Admin/Identity/*.md
+!Admin/Identity/*.svg
+!Admin/directives/
+!Admin/directives/*.md
+
+# Advisory Council
+!Advisory/
+!Advisory/README.md
+!Advisory/Evolution/
+!Advisory/Evolution/*.md
+!Advisory/Evolution/Identity/
+!Advisory/Evolution/Identity/*.md
+!Advisory/Improvement/
+!Advisory/Improvement/*.md
+!Advisory/Improvement/Identity/
+!Advisory/Improvement/Identity/*.md
+!Advisory/Keenness/
+!Advisory/Keenness/*.md
+!Advisory/Keenness/Identity/
+!Advisory/Keenness/Identity/*.md
+
+# Core protocols and foundation
+!Core/
+!Core/*.md
+!Core/protocols/
+!Core/protocols/*.md
+
+# Memory schemas (code only, not runtime state)
+!Memory/
+!Memory/README.md
+!Memory/kernel/
+!Memory/kernel/*.py
+!Memory/schemas/
+!Memory/schemas/*.sql
+
+# Operations template only
+!Operations/
+!Operations/_Template/
+!Operations/_Template/**
+
+# ---- ALWAYS BLOCKED ----
+.DS_Store
 __pycache__/
 *.pyc
 *.pyo
-
-# Editors
 *.swp
 *.swo
 *~
 .obsidian/
-
-# Dependencies
 node_modules/
+.env
+.env.*
+*.pem
+*.key
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+*.dmg
+.claude/settings.local.json
+Advisory/*/memory
+Memory/shared/

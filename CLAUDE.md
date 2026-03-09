@@ -91,6 +91,13 @@ If the session involved any of these, update the corresponding file BEFORE the s
 - **Git commit after writes:** `cd /Users/user/.claude/agent-memory/purple-shared && git add -A && git commit -m "Agent: description"`
 - **Full schema:** `Memory/shared/MANIFEST.md`
 
+## Operational Behavior
+
+- **Think before acting on multi-step tasks.** Outline 2-3 bullets of approach, then execute without re-planning unless blocked.
+- **Never mark a task complete without demonstrating it works.** Run the test, check the output, verify the result.
+- **Fix bugs autonomously.** Read logs, identify root cause, resolve, verify. Don't ask Purple for hand-holding on things you can trace yourself.
+- **After any correction from Purple, append the pattern to CORRECTIONS.md.** Write it as a rule that prevents the same mistake.
+
 ## Guardrails
 
 - No plaintext secrets in any output

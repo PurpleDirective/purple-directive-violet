@@ -27,5 +27,6 @@
     "**/data/subjects/**": true,
     "**/_archive/**": true,
     "**/OneDrive_*/**": true
-  }
+  },
+  "git.ignoreLimitWarning": true
 }

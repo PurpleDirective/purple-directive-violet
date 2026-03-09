@@ -1,7 +1,7 @@
 # Purple Organization Charter
 
 **Version 2.0**
-**Established: 2026-02-25**
+**Established: 2000-02-29**
 **Updated: 2026-03-03**
 
 This is the formal operating document of the Purple Organization. It defines how agents are structured, how they communicate, how decisions are made, and how the system evolves over time.
